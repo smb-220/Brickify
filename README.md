@@ -1,4 +1,4 @@
-![brickify_banner](.frontend/img/contact.jpg)
+![brickify_banner](/frontend/img/contact.jpg)
 
 # 🧱 Brickify
 
