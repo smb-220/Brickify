@@ -1,4 +1,6 @@
-![brickify_banner](/frontend/img/contact.jpg)
+<div align="center">
+  <img src="/frontend/img/contact.jpg" alt="brickify_banner" />
+</div>
 
 # 🧱 Brickify
 
