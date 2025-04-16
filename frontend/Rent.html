@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        select, button {
+            padding: 10px;
+            width: 100%;
+            margin: 5px 0 20px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn-container {
+            text-align: center;
+        }
+        .info {
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Rental Application</h1>
+        <p class="info">Please select your desired state and city for rental properties.</p>
+        
+        <form>
+            <label for="region">Select Country:</label>
+            <select id="region" name="region" onchange="set_country(this, country, city_state)">
+                <option value="">SELECT Country</option>
+                <option value="India">India</option>
+            </select>
+
+            <label for="country">Select State:</label>
+            <select id="country" name="country" disabled onchange="set_city_state(this, city_state)">
+                <option value="">SELECT STATE</option>
+            </select>
+
+            <label for="city_state">Select City:</label>
+            <select id="city_state" name="city_state" disabled>
+                <option value="">SELECT CITY</option>
+            </select>
+        </form>
+
+        <div class="btn-container">
+            <button type="button" onclick="print_city_state(country, city_state)">Submit</button>
+        </div>
+
+        <div id="txtregion" class="info"></div>
+        <div id="txtplacename" class="info"></div>
+    </div>
+
+    <script src="js/city_state.js"></script>
+
+</body>
+</html>
