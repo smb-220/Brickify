@@ -58,7 +58,7 @@
 
 ## 🌐 Live Demo
 
-🌟 [Brickify Website](https://smb220.github.io/Brickify)  
+🌟 [Brickify Website](https://smb-220.github.io/Brickify)  
 > 🔐 Login as:  
 > • Admin (Property Listing)  
 > • Owner / Lessor  
@@ -69,7 +69,7 @@
 ## 🛆 Developer Setup
 
 ```bash
-git clone https://github.com/smb220/Brickify.git
+git clone https://github.com/smb-220/Brickify.git
 cd Brickify
 npm install
 truffle compile
@@ -83,7 +83,7 @@ npm start
 
 Brickify is open for contributions and collaborations. Let’s modernize India’s real estate ecosystem — one block at a time.
 
-🔗 Maintained with ❤️ by [@smb220](https://github.com/smb220)
+🔗 Maintained with ❤️ by [@smb220](https://github.com/smb-220)
 
 ---
 
